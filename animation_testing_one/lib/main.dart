@@ -11,6 +11,7 @@ class AnimationTesting extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Animation Testing',
       home: HomePage(),
     );
